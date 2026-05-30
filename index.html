@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>6 Meses ♡</title>
+
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- FONDO ANIMADO -->
+
+<div class="floating-hearts">
+
+  <span>❤</span>
+  <span>❤</span>
+  <span>❤</span>
+  <span>❤</span>
+  <span>❤</span>
+
+</div>
+
+<div class="floating-roses">
+
+  <span>✮</span>
+  <span>಄</span>
+  <span>✰</span>
+  <span>❀</span>
+</div>
+
+  <!-- LOGIN -->
+
+ <section class="login-screen" id="loginScreen">
+
+    <div class="login-box">
+
+      <div class="heart">❤</div>
+
+      <h1>Our Little Place</h1>
+
+      <p>Ingresa la contraseña ♡</p>
+
+      <input type="password" id="password" placeholder="••••••">
+
+      <button onclick="checkPassword()">Entrar</button>
+
+      <span id="error"></span>
+
+    </div>
+
+  </section>
+
+  <!-- PAGINA -->
+
+  <main class="hidden" id="mainContent">
+
+    <!-- MUÑEQUITO -->
+
+<div class="mascot-box">
+
+  <!-- AQUI PONES TU PNG -->
+  <img src="murcielago.png" class="mascot">
+
+  <div class="speech-bubble">
+
+    <span id="loveMessage">
+      te quieroo ♡
+    </span>
+
+  </div>
+
+</div>
+
+    <!-- EFECTO LOVE -->
+
+<div class="love-screen hidden" id="loveScreen">
+
+  <div class="explosion">
+
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+
+  </div>
+
+</div>
+
+<!-- PNGS DECORATIVOS -->
+
+<img src="adorno1.png" class="floating png1">
+<img src="adorno3.png" class="floating png2">
+<img src="adorno5.png" class="floating png3">
+<img src="adorno4.png" class="floating png4">
+<img src="adorno2.png" class="floating png5">
+<img src="gatos1.png" class="floating png6">
+
+    <!-- decoraciones -->
+
+    <div class="blur blur1"></div>
+    <div class="blur blur2"></div>
+
+    <img class="decor heart1" src="https://cdn-icons-png.flaticon.com/512/833/833472.png">
+    <img class="decor heart2" src="https://cdn-icons-png.flaticon.com/512/833/833472.png">
+
+    <!-- HEADER -->
+
+    <section class="top-box">
+
+
+
+      <div class="title-box">
+
+        <h1>6 Mesesitos a tu lado</h1>
+
+        <p>
+          ‎‎૮ ˙Ⱉ˙ ა
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- CARTA -->
+
+    <section class="letter-section">
+
+      <img 
+      src="carta.png" 
+      class="letter-img"
+      onclick="abrirCarta()">
+
+      <div class="letter hidden" id="letter">
+
+        <h2>Para Ti  ♡</h2>
+
+        <p>
+          6 Mesesitooos
+          <br><br>
+Hola, Danielín. Espero que esta página te guste, la hice con los colores que me dijiste que te gustaban (∩˃o˂∩)♡.
+Bueno, te amo mucho. Ya te lo he dicho muchísimas veces, pero es que de verdad lo hago y voy a seguir diciéndote lo muuuuuchooooo que te amo mientras me permitas seguir a tu lado. Ojalá pudieras de verdad ver cuánto es lo que siento por ti, porque creo que no ves cuánto me gustas en realidad.
+Mi forma de ser quizás no permite que lo veas, pero de verdad cada vez estoy tratando de que lo veas y sientas más lo que yo siento por ti. Eres el hombre con el que quiero de verdad llegar hasta grandotes. Me gusta crecer, madurar y mejorar junto a ti. Me encanta que tú seas parte de mi vida y me gusta estar en la tuya.
+Me gustan muchas cosas de estar contigo y de ti. Por ejemplo, me gusta que las personas de mi alrededor vean que estoy junto a un hombrecito maravilloso que me quiere. Y de ti, un ejemplito de las tantas cosas que me gustan es que eres una personita que tiene una personalidad precioooosaaa.
+Eres divertido, eres inteligente, eres sensible, eres tierno, a veces bravo, a veces un poquito celosito JFHSJK. Eres generoso, disciplinado y también muy cariñosito, aunque a veces te pica y andas de seco ( ｡ •̀ ᴖ •́ ｡).
+Pues eso me gusta, y hay más cositas que no sabría cómo expresarte, pero dejémoslo más fácil me gustas solo porque siiii y yaa.
+Perdóname, yo sé que no me expreso de la mejor manera y quizás redundo mucho en lo que digo. Perdón, trato de no hacerlo, okei.
+          <br>
+          ˗ˏˋ ♡ ˎˊ˗
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- CONTADOR -->
+
+    <section class="counter-box">
+
+      <h2>Tiempo juntos</h2>
+
+      <div id="contador"></div>
+
+    </section>
+
+    <!-- COLLAGE -->
+
+    <section class="collage-section">
+
+      <div class="photo photo1">
+        <img src="foto1.jpg">
+      </div>
+
+      <div class="photo photo2">
+        <img src="foto2.jpg">
+      </div>
+
+      <div class="photo photo3">
+        <img src="foto3.jpg">
+      </div>
+
+      <div class="photo photo4">
+        <img src="foto4.jpg">
+      </div>
+
+      <div class="cute-text cute1">
+        forever ♡
+      </div>
+
+      <div class="cute-text cute2">
+        my favorite person
+      </div>
+
+    </section>
+
+    <!-- SPOTIFY -->
+
+    <section class="spotify-box">
+
+      <h2>Nuestra canción</h2>
+
+      <!-- PEGA AQUI TU LINK -->
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2WvSzsDOhSpZSqRdHwFAQD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="love-reasons">
+
+  <h2>Razones por las que te amo</h2>
+
+  <button id="reasonBtn">
+    Descubrir razón
+  </button>
+
+  <div id="reasonText">
+    Presiona el botón ♡
+  </div>
+
+</section>
+
+    <section class="heart-message-section">
+
+  <div class="heart-image">
+
+    <img src="cartaCora.png">
+
+    <div class="heart-text">
+
+<br>
+
+Quiero decirte que ‎  ‎ ‎ ‎ ‎aunque quizás no
+
+<br>
+
+sea realista pero quisiera durar
+
+<br>
+
+toda la vida a tu lado y no
+
+<br>
+
+dudo que serás uno de los
+
+<br>
+
+hombres que más amo
+
+<br>
+
+de toda mi
+
+<br>
+
+vida
+
+
+
+</div>
+
+  </div>
+
+  <div class="side-photo">
+
+    <img src="fotocora.png">
+
+  </div>
+
+</section>
+
+<section class="heart-game">
+
+  <h2>Arregla el corazón</h2>
+
+  <div class="heart-container">
+
+    <img src="corazonRoto.png" id="heartGame">
+
+    <div id="heartLetters">
+      D ♡ T
+    </div>
+
+  </div>
+
+  <p id="mensajeCorazon">
+    Haz clic en el corazón
+  </p>
+
+</section>
+
+  </main>
+
+  <script src="java.js"></script>
+
+</body>
+</html>
