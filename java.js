@@ -34,7 +34,6 @@ function abrirCarta(){
   .classList.toggle("hidden");
 
 }
-// MENSAJES QUE CAMBIAN
 
 const mensajes = [
 
